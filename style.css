@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url(font/Yekan.ttf);
+}
+
+body {
+  font-family: "Yekan";
+  height: 200vh;
+}
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+
+.header2 {
+  display: flex;
+}
+
+.Menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.Menu-item {
+  padding: 10px 30px;
+}
+
+.picture {
+  height: 70vh;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/Xiwd2xvSftAFk3e2gqwr2G.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid brown;
+  max-width: max-content;
+  padding: 10px;
+}
+span {
+  color: blue;
+}
+
+p {
+  padding: 20px 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 5px;
+}
+
+table {
+  width: 100%;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+table th {
+  border: 3px solid rgb(255, 0, 0);
+}
+
+table td {
+  border: 3px solid rgb(95, 95, 230);
+}
+
+.footer-background {
+  width: 100%;
+  background-color: black;
+  height: 20vh;
+}
